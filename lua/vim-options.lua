@@ -7,6 +7,7 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set nowrap")
 
 -- Search
+vim.cmd("set incsearch")
 vim.cmd("set ignorecase")
 vim.cmd("set smartcase")
 -- search will center on the line
@@ -27,7 +28,7 @@ vim.opt.listchars = {
   extends = '⟩',
   precedes = '⟨',
 }
-vim.keymap.set('n', '<leader><space>', ':set nu! cursorline! cursorcolumn! hlsearch!<CR>',{ silent = true})
+vim.keymap.set('n', '<leader><space>', ':set nu! cursorline! cursorcolumn!<CR>:nohl<CR>',{ silent = true})
 
 -- Tabs
 vim.keymap.set('n', '<A-.>', 'gt', { silent = true })
