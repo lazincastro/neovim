@@ -3,15 +3,6 @@ Nvim configurantion inspired by TypeCraft
 
 # 🛠️ Installation
 
-You can find a starter template for **LazyVim** [here](https://github.com/LazyVim/starter)
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="local" label="Linux/MacOS" default>
-
-Install the [LazyVim Starter](https://github.com/LazyVim/starter)
 
 - Make a backup of your current Neovim files:
 
@@ -28,7 +19,7 @@ Install the [LazyVim Starter](https://github.com/LazyVim/starter)
 - Clone the starter
 
   ```sh
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  git clone https://github.com/lazincastro ~/.config/nvim
   ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
