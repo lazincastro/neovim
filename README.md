@@ -19,7 +19,7 @@ Nvim configurantion inspired by TypeCraft
 - Clone the starter
 
   ```sh
-  git clone https://github.com/lazincastro ~/.config/nvim
+  git clone https://github.com/lazincastro/nvim ~/.config/nvim
   ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
