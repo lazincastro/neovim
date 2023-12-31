@@ -6,6 +6,14 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set nowrap")
 
+-- Better Backup, Swap and Undos Storage
+vim.cmd("set directory=~/.config/nvim/dirs/tmp")
+vim.cmd("set backup")
+vim.cmd("set backupdir=~/.config/nvim/dirs/backups")
+vim.cmd("set undofile")
+vim.cmd("set undodir=~/.config/nvim/dirs/undos")
+vim.cmd("set viminfo+=n~/.config/nvim/dirs/viminfo")
+
 -- Search
 vim.cmd("set incsearch")
 vim.cmd("set ignorecase")
