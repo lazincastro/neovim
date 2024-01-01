@@ -14,7 +14,7 @@ vim.cmd("set undofile")
 vim.cmd("set undodir=~/.config/nvim/dirs/undos")
 vim.cmd("set viminfo+=n~/.config/nvim/dirs/viminfo")
 -- verify if folders if they don't exist
--- vim.cmd("au VimEnter * silent! !mkdir -p ~/.config/nvim/dirs/backups ~/.config/nvim/dirs/undos ~/.config/nvim/dirs/tmp ~/.config/nvim/dirs/viminfo")
+-- vim.cmd("au VimEnter * silent! !mkdir -p ~/.config/nvim/dirs/backups ~/.config/nvim/dirs/undos ~/.config/nvim/dirs/tmp")
 
 -- Search
 vim.cmd("set incsearch")
