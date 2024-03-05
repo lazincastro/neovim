@@ -4,6 +4,7 @@ vim.cmd("inoremap jj <ESC>")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
+vim.cmd("set expandtab")
 vim.cmd("set nowrap")
 
 -- Better Backup, Swap and Undos Storage
