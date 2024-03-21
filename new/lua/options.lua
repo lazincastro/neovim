@@ -1,5 +1,6 @@
 vim.opt.showmode = false          -- Don't show mode
 vim.opt.clipboard = "unnamedplus" -- Copy paste between vim and everything else
+vim.g.autopairs_enabled = true    -- Enable autopairs
 vim.cmd("set expandtab")          -- Use spaces instead of tabs
 vim.cmd("set tabstop=2")          -- Number of spaces that a <Tab> in the file counts for
 vim.cmd("set softtabstop=2")      -- Number of spaces that a <Tab> counts for while performing editing operations
